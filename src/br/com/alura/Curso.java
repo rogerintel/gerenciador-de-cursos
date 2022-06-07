@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Curso {
 
+	/** teste 1**/
+
 	private String nome;
 	private String instrutor;
 	private List<Aula> aulas = new LinkedList<Aula>();
