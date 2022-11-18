@@ -34,7 +34,7 @@ public class Curso {
 	}
 
 	public int getTempoTotal() {
-		return this.getAulas.stream().mapToInt(Aula::getTempo()).sum();
+		return this.aulas.stream().mapToInt(Aula::getTempo).sum();
 	}
 
 }
